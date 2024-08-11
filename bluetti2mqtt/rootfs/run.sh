@@ -59,6 +59,7 @@ case $MODE in
 			--interval ${POLL_SEC} \
 			--ha-config ${HA_CONFIG} \
 			${BT_MAC})
+		bashio::log.info "bluetti-mqtt ${args[@]}"
 		bluetti-mqtt ${args[@]}
 		;;
 

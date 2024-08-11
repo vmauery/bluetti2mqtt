@@ -1,3 +1,7 @@
+## [1.4.2] - 2024-08-11
+
+- Use ftrueck fork of bluetti_mqtt
+
 ## [1.4.1] - 2023-05-13
 
 - Bump bluetti_mqtt to version 0.15.0.

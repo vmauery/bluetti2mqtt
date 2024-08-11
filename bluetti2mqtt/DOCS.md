@@ -2,9 +2,9 @@
 
 MQTT bridge between Bluetti and Home Assistant.
 
-This is a simple Home Assistant add-on for [bluetti_mqtt](https://github.com/warhammerkid/bluetti_mqtt).
+This is a simple Home Assistant add-on for [bluetti_mqtt](https://github.com/ftrueck/bluetti_mqtt).
 
-This add-on was created as an easy method to get Bluetti data into Home Assistant, without having to setup [bluetti_mqtt](https://github.com/warhammerkid/bluetti_mqtt) on a separate device.
+This add-on was created as an easy method to get Bluetti data into Home Assistant, without having to setup [bluetti_mqtt](https://github.com/ftrueck/bluetti_mqtt) on a separate device.
 
 ___
 
@@ -32,9 +32,9 @@ ___
 
 > - `mqtt` - Monitor & control Bluetti device(s) via MQTT.
 
-> - `discovery` - Used for reverse engineering, see [here](https://github.com/warhammerkid/bluetti_mqtt#reverse-engineering).
+> - `discovery` - Used for reverse engineering, see [here](https://github.com/ftrueck/bluetti_mqtt#reverse-engineering).
 
-> - `logger` - Used for reverse engineering, see [here](https://github.com/warhammerkid/bluetti_mqtt#reverse-engineering).
+> - `logger` - Used for reverse engineering, see [here](https://github.com/ftrueck/bluetti_mqtt#reverse-engineering).
 
 >>> Note: `discovery` & `logger` modes will output log files to your Home Assistant /share/bluetti2mqtt directory & will NOT publish messages to the MQTT broker.
 
@@ -44,7 +44,7 @@ ___
 
 ### Required: `ha_config`
 
-> What fields to configure in Home Assistant - defaults to most fields ("normal"), see [here](https://github.com/warhammerkid/bluetti_mqtt#home-assistant-integration).
+> What fields to configure in Home Assistant - defaults to most fields ("normal"), see [here](https://github.com/ftrueck/bluetti_mqtt#home-assistant-integration).
 
 > - `normal` - MOST sensors & commands are set up with MQTT discovery.
 
@@ -87,6 +87,6 @@ ___
 
 For more information, please refer to the following:
 
-- Github repository: [bluetti_mqtt](https://github.com/warhammerkid/bluetti_mqtt)
+- Github repository: [bluetti_mqtt](https://github.com/ftrueck/bluetti_mqtt)
 
 - DIY Solar Forum: [Monitoring Bluetti Systems](https://diysolarforum.com/threads/monitoring-bluetti-systems.37870/)
