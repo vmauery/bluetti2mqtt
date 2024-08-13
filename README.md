@@ -1,6 +1,6 @@
 # Bluetti2MQTT
 
-![update-badge](https://img.shields.io/github/last-commit/SSMCD/bluetti2mqtt?label=Last%20Updated)
+![update-badge](https://img.shields.io/github/last-commit/ftrueck/bluetti2mqtt?label=Last%20Updated)
 
 ## Installation
 To add this repository to Home Assistant use the badge below:
