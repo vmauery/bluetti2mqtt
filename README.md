@@ -40,9 +40,7 @@ This is a fork from https://github.com/ftrueck/bluetti2mqtt which is a
 fork from https://github.com/SSMCD/bluetti2mqtt
 
 The original SSMCD code pulls in bluetti-mqtt from pip, which is an
-old version. Even the latest https://github.com/warhammerkid/bluetti_mqtt
-code does not support the AC70. But the https://github.com/ftrueck/bluetti_mqtt
+old version. Even the latest https://github.com/ftrueck/bluetti_mqtt
+code does not support LWT. But the https://github.com/vmauery/bluetti_mqtt
 fork does contain support for it. So what MY fork of bluetti2mqtt does
-is pull the bluetti-mqtt from the ftruek fork correctly, since there were
-some issues the in ftrueck dockerfile for bluetti2mqtt. But when I add this
-repo to HA, I can see my device.
+is pull the bluetti-mqtt from the vmauery fork to enable LWT.

@@ -1,3 +1,7 @@
+## [1.4.3] - 2026-02-03
+
+- Use vmauery fork of bluetti_mqtt
+
 ## [1.4.2] - 2024-08-11
 
 - Use ftrueck fork of bluetti_mqtt
