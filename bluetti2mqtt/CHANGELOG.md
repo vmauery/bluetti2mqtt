@@ -1,3 +1,7 @@
+## [1.4.4] - 2026-02-03
+
+- Add LWT feature from bluetti_mqtt
+
 ## [1.4.3] - 2026-02-03
 
 - Use vmauery fork of bluetti_mqtt

@@ -1,6 +1,6 @@
 ---
 name: Bluetti to MQTT
-version: 1.4.3
+version: 1.4.4
 slug: bluetti2mqtt
 description: MQTT bridge between Bluetti and Home Assistant
 url: https://github.com/vmauery/bluetti2mqtt
