@@ -1,3 +1,7 @@
+## [1.4.5] - 2026-02-03
+
+- Force pip to reinstall (no caching bluetti_mqtt)
+
 ## [1.4.4] - 2026-02-03
 
 - Add LWT feature from bluetti_mqtt
